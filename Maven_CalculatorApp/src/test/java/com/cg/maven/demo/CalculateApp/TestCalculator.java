@@ -43,7 +43,8 @@ public class TestCalculator{
 	    {
 	    	Calculator c1 = new Calculator();
 	    	double res= c1.divide(6, 3);
-	    	Assert.assertEquals(2, res);
+	 
+   	Assert.assertEquals(2, res,0);
 	       
 	    }
 }
